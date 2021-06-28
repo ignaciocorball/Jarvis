@@ -20,9 +20,9 @@ We're on [Discord](https://discord.gg/exD8cJhA)!  Please join us.
 
 ## Installation
 
-For correct installation you need Python >= 3.7 and pip for install the dependencies.
-[Download Python](https://www.python.org/downloads/release/python-370/)
-[How install pip](https://pip.pypa.io/en/stable/installing/)
+For correct installation you need Python >= 3.7 and pip for install the dependencies.  
+[Download Python](https://www.python.org/downloads/release/python-370/)  
+[How install pip](https://pip.pypa.io/en/stable/installing/)  
 
 [1] Open Console or Terminal and paste it `git clone https://github.com/TechCoy/Jarvis-VRT.git`  
 [2] Go to Jarvis Folder `\Jarvis-VRT` and install requirements with `pip install -r requierements.txt`  
