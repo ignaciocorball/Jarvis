@@ -1,14 +1,9 @@
 # Jarvis - Python
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)](link)&nbsp;
 [![Discord chat](https://img.shields.io/discord/808045925556682782.svg?logo=discord&colorB=7289DA&style=flat-square)](https://discord.gg/exD8cJhA)&nbsp;
-[![Gitter chat](https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square)](link)&nbsp;
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/TheAlgorithms/Python/build?label=CI&logo=github&style=flat-square)](link)&nbsp;
-[![LGTM](https://img.shields.io/lgtm/alerts/github/TheAlgorithms/Python.svg?label=LGTM&logo=LGTM&style=flat-square)](link)&nbsp;
-[![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](link)&nbsp;
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](link)&nbsp;
-![](link)&nbsp;
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white&style=flat-square)](link)&nbsp;
-[![code style: black](https://img.shields.io/static/v1?label=code%20style&message=black&color=black&style=flat-square)](link)&nbsp;
+[![Buy me one Coffe](https://img.shields.io/badge/Paypal-Buy%20me%20a%20Coffe%20:D-blue?style=flat-square&logo=paypal)](https://www.paypal.com/donate?hosted_button_id=DHVAQ8ZDAVZGQ)&nbsp;
+[![Twitter](https://img.shields.io/twitter/follow/GhostyWP?style=social)]()&nbsp;
+[![Downloads](https://img.shields.io/github/downloads/techcoy/Jarvis/total?color=%232FD38E&logo=github&style=flat-square)](https://github.com/techcoy/Jarvis/releases)&nbsp;
+[![Website](https://img.shields.io/website?down_message=We%20come%20back%20soon&up_message=Currently%20UP&url=https%3A%2F%2Ftechcoy.xyz%2F)](https://techcoy.xyz/)&nbsp;
 <!--[![Tested on Python 3.7](https://img.shields.io/badge/Tested%20-Python%203.8-blue.svg?logo=python&style=flat-square)](https://www.python.org/downloads) &nbsp;-->
 
 ### Voice recognition tool
@@ -29,9 +24,9 @@ For correct installation you need Python >= 3.7 and pip for install the dependen
 [Download Python](https://www.python.org/downloads/release/python-370/)
 [How install pip](https://pip.pypa.io/en/stable/installing/)
 
-[1] Open Console or Terminal and paste it `git clone https://github.com/TechCoy/Jarvis-VRT.git`
-[2] Go to Jarvis Folder `\Jarvis-VRT` and install requirements with `pip install -r requierements.txt`
-[3] Execute the assistant with `python main.py`
+[1] Open Console or Terminal and paste it `git clone https://github.com/TechCoy/Jarvis-VRT.git`  
+[2] Go to Jarvis Folder `\Jarvis-VRT` and install requirements with `pip install -r requierements.txt`  
+[3] Execute the assistant with `python main.py`  
 
 ## MIT Licence
 
