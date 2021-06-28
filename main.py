@@ -9,8 +9,6 @@ import os
 import webbrowser
 import subprocess
 import time
-import requests
-import json
 import pathlib
 
 #Enviroment Config
@@ -30,7 +28,7 @@ win32gui.EnumWindows(enumHandler, None)
 
 
 
-#STRINGS AND VARIABLES
+# Variables
 currentProgramPath = pathlib.Path().absolute()
 supremePath = r"C:\\Program Files\\Supreme\\SUPREME.exe"
 gamersclubPath = r"C:\Users\GhostY\AppData\Local\Programs\gcac-launcher\\Gamers Club AC Launcher.exe"
@@ -40,9 +38,9 @@ spotifyPath = r"C:\Users\GhostY\AppData\Roaming\Spotify\Spotify.exe"
 vegasPath = r"C:\Program Files\VEGAS\VEGAS Pro 17.0\vegas170.exe"
 whoIsJarvisWAV = r'C:\Users\GhostY\OneDrive\Documentos\Local Repository\Python Practice\Jarvis-Python\resources\\whoIsJarvis.wav'
 goodMorningJarvis = r'C:\Users\GhostY\OneDrive\Documentos\Local Repository\Python Practice\Jarvis-Python\resources\\goodMorningJarvis.wav'
-# creating take_commands() function which
-# can take some audio, Recognize and return
-# if there are not any errors
+# Creating take_commands() function which
+# Can take some audio, Recognize and return
+# If there are not any errors
 def setup_Enviroment():
     system("cls")
     os.system('mode con: cols=80 lines=100')
@@ -133,12 +131,6 @@ if __name__ == '__main__':
             Speak("Sure sir! as your wish, bai")
             break
 
-        if "learn" in command:
-            Speak("copyassignment website is best to learn python")
-
-        if "code" in command:
-            Speak("You can get this code from copyassignment website")
-
         if "destroy Google" in command:
             Speak("Hacking google Sir")
 
@@ -169,12 +161,6 @@ if __name__ == '__main__':
         if "good morning" in command:
             playsound(goodMorningJarvis)
         
-        if "is the math test difficult" in command:
-            Speak("No, is not difficult, it is imposible")
-
-        if "speak in chileno" in command:
-            Speak("Que wea queri que te diga")
-
         #TASK COMMANDS
         if "time to study" in command:
             Speak("Setting up the study enviroment sir")
@@ -188,10 +174,6 @@ if __name__ == '__main__':
         if "open Instagram" in command:
             Speak("Opening instagram sir")
             webbrowser.open(r'https:\\instagram.com\GhostY.xyz', new=2)
-
-        if "open University" in command:
-            Speak("Opening C F T webpage sir")
-            webbrowser.open(r'https://adfs.inacap.cl/adfs/ls/?wtrealm=https://siga.inacap.cl/sts/&wa=wsignin1.0&wreply=https://siga.inacap.cl/sts/&wctx=https%3a%2f%2fadfs.inacap.cl%2fadfs%2fls%2f%3fwreply%3dhttps%3a%2f%2fwww.inacap.cl%2ftportalvp%2fintranet-alumno%26wtrealm%3dhttps%3a%2f%2fwww.inacap.cl%2f', new=2)
 
         if "open GC" in command:
             Speak("Opening Gamers Club Sir")
@@ -216,7 +198,7 @@ if __name__ == '__main__':
             Speak("Opening Spotify Sir")
 
         if "stop music" in command:
-
+            # Add your commands with spotify-local library
             Speak("Music has been paused sir")
 
         if "what time is it" in command:
@@ -224,16 +206,6 @@ if __name__ == '__main__':
             Speak(datetime.now().strftime("%I"));
             time.sleep(0.1)
             Speak(datetime.now().strftime("%M %p"))
-
-        if "open cheats" in command:
-
-            Speak("cheats are loaded sir")
-        
-
-
-        
-
-        
 
 
 

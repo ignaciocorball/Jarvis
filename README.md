@@ -24,8 +24,8 @@ For correct installation you need Python >= 3.7 and pip for install the dependen
 [Download Python](https://www.python.org/downloads/release/python-370/)  
 [How install pip](https://pip.pypa.io/en/stable/installing/)  
 
-[1] Open Console or Terminal and paste it `git clone https://github.com/TechCoy/Jarvis-VRT.git`  
-[2] Go to Jarvis Folder `\Jarvis-VRT` and install requirements with `pip install -r requierements.txt`  
+[1] Open Console or Terminal and paste it `git clone https://github.com/techcoy/Jarvis.git`  
+[2] Go to Jarvis Folder `\Jarvis` and install requirements with `pip install -r requierements.txt`  
 [3] Execute the assistant with `python main.py`  
 
 ## MIT Licence
