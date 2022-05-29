@@ -3,7 +3,7 @@
 [![Buy me one Coffe](https://img.shields.io/badge/Paypal-Buy%20me%20a%20Coffe%20:D-blue?style=flat-square&logo=paypal)](https://www.paypal.com/donate?hosted_button_id=DHVAQ8ZDAVZGQ)&nbsp;
 [![Twitter](https://img.shields.io/twitter/follow/GhostyWP?style=social)](https://twitter.com/GhostYWP)&nbsp;
 [![Downloads](https://img.shields.io/github/downloads/techcoy/Jarvis/total?color=%232FD38E&logo=github&style=flat-square)](https://github.com/techcoy/Jarvis/releases)&nbsp;
-[![Website](https://img.shields.io/website?down_message=We%20come%20back%20soon&up_message=Currently%20UP&url=https%3A%2F%2Ftechcoy.xyz%2F)](https://techcoy.xyz/)&nbsp;
+[![Website](https://img.shields.io/website?down_message=maintenance&label=Website&up_color=lime&up_message=visit%20us&url=https%3A%2F%2Fpatagonia.delivery)](https://patagonia.delivery/)&nbsp;
 <!--[![Tested on Python 3.7](https://img.shields.io/badge/Tested%20-Python%203.8-blue.svg?logo=python&style=flat-square)](https://www.python.org/downloads) &nbsp;-->
 
 ### Voice recognition tool
