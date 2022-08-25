@@ -8,14 +8,6 @@
 
 These implementations are for learning purposes only. Therefore they may be less efficient than the implementations in the Python standard library.
 
-## Contribution Guidelines
-
-Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
-
-## Community Channel
-
-We're on [Discord](https://discord.gg/exD8cJhA)!  Please join us.
-
 ## Installation
 
 For correct installation you need Python >= 3.7 and pip for install the dependencies.  
@@ -25,6 +17,10 @@ For correct installation you need Python >= 3.7 and pip for install the dependen
 [1] Open Console or Terminal and paste it `git clone https://github.com/ignaciocorball/Jarvis.git`  
 [2] Go to Jarvis Folder `\Jarvis` and install requirements with `pip install -r requirements.txt`  
 [3] Execute the assistant with `python main.py`  
+
+## Contribution Guidelines
+
+Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ## MIT Licence
 
