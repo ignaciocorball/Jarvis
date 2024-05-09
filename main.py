@@ -30,12 +30,9 @@ win32gui.EnumWindows(enumHandler, None)
 
 # Variables
 currentProgramPath = pathlib.Path().absolute()
-supremePath = r"C:\\Program Files\\Supreme\\SUPREME.exe"
-gamersclubPath = r"C:\Users\GhostY\AppData\Local\Programs\gcac-launcher\\Gamers Club AC Launcher.exe"
 microsoftTeamsArgs = [r'C:\Users\GhostY\AppData\Local\Microsoft\Teams\Update.exe', '--processStart', 'Teams.exe']
 photoshopPath = r"C:\Program Files\Adobe\Adobe Photoshop 2020\Photoshop.exe"
 spotifyPath = r"C:\Users\GhostY\AppData\Roaming\Spotify\Spotify.exe"
-vegasPath = r"C:\Program Files\VEGAS\VEGAS Pro 17.0\vegas170.exe"
 whoIsJarvisWAV = r'C:\Users\GhostY\OneDrive\Documentos\Local Repository\Python Practice\Jarvis-Python\resources\\whoIsJarvis.wav'
 goodMorningJarvis = r'C:\Users\GhostY\OneDrive\Documentos\Local Repository\Python Practice\Jarvis-Python\resources\\goodMorningJarvis.wav'
 # Creating take_commands() function which
@@ -131,17 +128,14 @@ if __name__ == '__main__':
             Speak("Sure sir! as your wish, bai")
             break
 
-        if "destroy Google" in command:
-            Speak("Hacking google Sir")
+        if "Google is" in command:
+            Speak("Google is love sir")
 
         if "ey Jarvis" in command:
             Speak("Yes Sir?")
 
         if "enable secure mode" in command:
             Speak("Setting up the secure mode sir")
-
-        if "what do you think about Alexa" in command:
-            Speak("I think she conspires with google to dominate the world")
 
         if "disable secure" in command:
             Speak("Setting down the secure mode sir")
@@ -151,7 +145,7 @@ if __name__ == '__main__':
 
         
         if "hello Jarvis" in command:
-            Speak("Hello Ghost e")
+            Speak("Hello!")
             time.sleep(0.5)
             Speak("Today's gonna be a good day")
 
